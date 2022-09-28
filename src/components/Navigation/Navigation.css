@@ -1,0 +1,52 @@
+.navigation {
+  display: flex;
+  width: 100%;  
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.navigation__links {
+  display: flex;
+  list-style: none;
+}
+
+.navigation__links-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.navigation__links-item:hover {
+  font-weight: 500;
+  cursor: pointer
+}
+
+.navigation__button {
+  border: none;
+  font-weight: 500; 
+}
+
+.navigation__button:hover {
+  cursor: pointer
+}
+
+.navigation__button_login {
+  width: 76px;
+  height: 32px;
+  background: #2BE080;
+  border-radius: 3px;
+}
+
+.navigation__button_register {
+  margin-right: 30px;
+  background-color: #11ffee00;
+}
+
+.navigation__button_account {
+  background: #F9F9F9;
+  border-radius: 20px;
+  width: 100px;
+  height: 32px;
+}

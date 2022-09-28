@@ -1,0 +1,31 @@
+.main__promo {
+  padding: 20px 40px 0 40px;
+}
+
+
+
+.main__about {
+  padding: 10px 70px 141px 70px;
+}
+
+.main__technology {
+  padding: 0 70px 50px 70px;
+  background: #F5F5F5;
+}
+
+.main__aboutme {
+  padding: 10px 70px 125px 70px;
+}
+
+.main__section-title {
+  padding: 100px 0 0 0;
+  border-bottom: solid 1px #000000;
+}
+
+.main__section-title-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0 0 23px 0;
+}
+

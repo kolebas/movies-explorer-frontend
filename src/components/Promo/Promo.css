@@ -1,0 +1,31 @@
+.promo {
+  background: #F5F5F5;
+  border-radius: 10px;
+  text-align: center;  
+  padding: 160px 235px 30px 235px;
+}
+
+.promo__title {
+  margin: auto;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+}
+
+.promo__buttons {
+  margin-top: 151px;
+}
+
+@media screen and (max-width: 768px) {
+  .promo {   
+    padding: 350px 24px 30px 24px;
+  }
+  .promo__title {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .promo__buttons {
+    margin-top: 314px;
+  }
+}

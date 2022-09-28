@@ -1,0 +1,15 @@
+.nav__button {
+  margin-right: 10px;
+  border: none;
+  background: #E8E8E8;
+  border-radius: 10px;
+  width: 96px;
+  height: 36px;
+  padding: 10px 17px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.nav__button:hover {
+  cursor: pointer
+}

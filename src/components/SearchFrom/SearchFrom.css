@@ -1,0 +1,16 @@
+.search-form {
+  padding: 70px 70px 10px 70px;
+}
+
+.search-form__body {  
+  border-bottom: solid 1px #E8E8E8;
+}
+
+.search-form__input {  
+  margin-bottom: 69px;
+  background: #F9F9F9;
+border-radius: 9px;
+height: 69px;
+border: none;
+width: 100%;
+}

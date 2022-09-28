@@ -1,0 +1,95 @@
+.aboutme__info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+
+.aboutme__description {
+  max-width: 600px;
+}
+
+.aboutme__photo {
+  background-image: url("../../images/photo.jpg");
+  width: 270px;
+  height: 327px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.aboutme__name {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  margin: 0 0 18px 0;
+}
+
+.aboutme__position {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0 0 26px 0;
+}
+
+.aboutme__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.aboutme__portfolio {
+  margin-top: 100px;
+}
+
+.aboutme__portfolio-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #A0A0A0;
+  mix-blend-mode: normal;
+  margin: 0 0 50px 0;
+}
+
+.aboutme__portfolio-list {
+  padding: 0;
+  margin: 0;
+}
+
+.aboutme__portfolio-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px #E8E8E8;
+  margin: 20px 0 0 0;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 50px;
+  letter-spacing: -0.04em;
+}
+
+.aboutme__portfolio-item:first-child {
+  margin-top: 0;
+}
+
+.aboutme__portfolio-item:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+.aboutme__links {
+  margin-top: 99px;
+}
+
+.aboutme__link-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.aboutme__portfolio-item-icon {
+  background: url("../../images/arrow.svg") no-repeat center;
+  width: 30px;
+  height: 60px;
+}
